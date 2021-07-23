@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment1</title>
+    <style>
+      *{
+            font-family: Arial;
+        }
+        .Heading{
+          font-size: medium;
+        }
+        #title{
+            background-color: rgb(14, 13, 13);
+            height: 85px;
+            color: beige;
+            display: flex;
+            align-items: center; 
+            padding-left: 10px;
+
+        }
+        span{
+            font-size:50px;
+            color: rgb(91, 91, 97);
+        }
+        #list1 {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(85, 84, 84);
+        }
+        
+       .list2 {
+          float: left;
+        }
+        
+        .list2 a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          border-right:1px solid black;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+        .section {
+  display: section;
+  grid-template-columns:  1080px auto ;  
+  background-color:grey;
+  
+}
+
+.section > div {
+  background-color: rgba(255, 255, 255, 0.8);  
+  padding: 20px 0;
+  font-size: 30px;
+  height:750px
+}
+#a{ background-color:white;
+}
+.list4 a{
+    
+    
+    font-size: small;
+    color: rgb(210, 123, 30);    
+    border-right: none;
+    
+        }
+       
+        #list3{
+            
+            list-style-type:  none;    
+            line-height: 50%;   
+            
+            }
+            .f{
+                display: flex;
+                justify-content: space-between;
+                padding: 60px;
+                height: 110px;
+                
+                
+               
+            }
+            .e{
+                background-color: rgba(85, 84, 84,.4);
+                height: 110px;
+                width: 110px;
+            }
+            hr{
+                width: 85%;
+            }
+            .length{
+                display: flex;
+            }
+            .line{
+                background-color: rgb(210, 123, 30); 
+                height: 1px;
+                width: 580px;
+                
+            }
+            p{
+              font-size: small
+            }
+    </style>
+</head>
+<body>
+    <body>
+        <div id="title">
+     <h1>HTML <span>5</span></h1>
+        </div>
+
+        <ul id="list1">
+          <li class="list2" ><a class="active" href="#home">Link1</a></li>
+          <li class="list2"><a href="#news">Link2</a></li>
+          <li class="list2"><a href="#contact">Link3</a></li>
+          <li class="list2"><a href="#about">Link4</a></li>
+          <li class="list2"><a href="#about">Link5</a></li>
+        </ul>
+
+        <div class=".section">
+
+            <div id="c1">
+              <div class="c2">
+                   <div class="c3"></div>
+                   <div ><b class="Heading">This is Lorem ispam Heading</b><p >Lorem ipsum
+                     dolor
+                     sit amet consectetur
+                     adipisicing elit. Quos obcaecati totam necessitatibus, saepe dolorum sunt cum rerum labore dolorem<br>
+                     Quos obcaecati totam necessitatibus, saepe dolorum sunt cum rerum sunt cum rerum labore doloremrerum labore 
+                     dolorem<br> magnam quis doloribus vero 
+                    consectetur eligendi inventore hic doloremque, quam dolores.</p>
+                    <a style="font-size:small;color:rgb(210, 123, 30)  ;"href="#">Read More</a>
+                </div>
+              </div> 
+              <hr>
+              <div class="c2">
+                <div class="c3"></div>
+                <div ><b class="Heading" >This is Lorem ispam Heading</b><p >Lorem ipsum
+                  dolor
+                  sit amet consectetur
+                  adipisicing elit. Quos obcaecati totam necessitatibus, saepe dolorum sunt cum rerum labore dolorem<br>
+                  Quos obcaecati totam necessitatibus, saepe dolorum sunt cum rerum sunt cum rerum labore doloremrerum labore 
+                  dolorem<br> magnam quis doloribus vero 
+                 consectetur eligendi inventore hic doloremque, quam dolores.</p>
+                 <a style="font-size:small;color:rgb(210, 123, 30);"href="#">Read More</a>
+             </div>
+           </div>
+           <hr>
+           <div class="c2">
+            <div class="c3"></div>
+            <div ><b class="Heading">This is Lorem ispam Heading</b><p >Lorem ipsum
+              dolor
+              sit amet consectetur
+              adipisicing elit. Quos obcaecati totam necessitatibus, saepe dolorum sunt cum rerum labore dolorem<br>
+              Quos obcaecati totam necessitatibus, saepe dolorum sunt cum rerum sunt cum rerum labore doloremrerum labore 
+              dolorem<br> magnam quis doloribus vero 
+             consectetur eligendi inventore hic doloremque, quam dolores.</p>
+             <a style="font-size:small;color:rgb(210, 123, 30);    ;"href="#">Read More</a>
+         </div>
+       </div>
+
+            </div>
+
+            <div  style="padding-left: 8px ;text-align: left ;">
+               <div style="font-size: 15px;"> <b>Sidbar Links</b>
+               </div>
+               <hr>
+                  <ui  id="list3">
+                    <li class="list4"><a>Link1</a></li>
+                    <li class="list4"><a>Link2</a></li>
+                    <li class="list4"><a>Link3</a></li>
+                    <li class="list4"><a>Link4</a></li>
+                  </ui>
+                  <br>
+               <div style="font-size: 15px;"> <b>Other widgets</b></div><hr>
+               <div style="font-size: 12px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Fugit, voluptas iste. Doloribus minus, ipsa, rerum repudiandae itaque consectetur recusandae, praesentium 
+                 iste odit error delectus .<br><br> Veritatis molestias repudiandae dolorum in quo 
+                  repellat debitis vero tempore possimus omnis ex 
+                 magnam quidem qui inventore modi, ratione nulla.</div>
+            </div>         
+                
+            
+        </div>
+        <div class="length">
+            <div class="line"></div>
+            <div  style="flex-grow: 1;" ><center style="font-size: x-large;color:rgb(210, 123, 30);">980 px</center></div>
+            <div class="line"></div>
+        </div><br>
+
+
+
+
+        <div style="background-color:rgb(85, 84, 84) ; height: 25px;">
+          <center style="font-size: xx-small"> copyright <span style="font-size: xx-small" >yoursite.</span> all rights reserved</center> 
+        </div>
+        </body>
+</body>
+</html>

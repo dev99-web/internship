@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <title>HTML tr bgcolor Attribute</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 50%;
+            border: 1px solid #ddd;
+        }
+        th, td {
+            text-align: center;
+            padding: 16px;
+        }
+        th:first-child, td:first-child{
+            text-align: left;
+        }
+        tr:nth-child(even){
+            background-color: #FAEBD7;
+        }
+ 
+    </style>
+</head>
+  
+<body>
+    <h1>Sample Table </h1>
+  
+    <table width="500" border="1">
+        <tr bgcolor= #7FFFD4;>
+            <th>Contact Name</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Is Promoted</th>
+        </tr>
+  
+        <tr >
+            <td>Maria Andres</td>
+            <td>Berlin</td>
+            <td>Germany</td>
+            <td><i class="fa fa-remove"></i></td>
+        </tr>
+  
+        <tr >
+            <td>Anna Trujillo</td>
+            <td>Mexico D.F.</td>
+            <td>Mexico</td>
+            <td><i class="fa fa-check"></i></td>
+        </tr>
+        <tr >
+            <td>Antonio Moreno</td>
+            <td>Mexico D.F.</td>
+            <td>Mexico</td>
+            <td><i class="fa fa-remove"></i></td>
+        </tr>
+        <tr >
+            <td>Thomas Hardy</td>
+            <td>London</td>
+            <td>UK</td>
+            <td><i class="fa fa-remove"></i></td>
+        </tr>
+    </table>
+</body>
+  
+</html>
